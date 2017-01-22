@@ -1,0 +1,20 @@
+div#banner {
+	position:relative;
+}
+
+div#banner button {
+	position: absolute;
+	right:170px;
+}
+
+form[name='addQuestion'] {
+	margin-bottom: 20px;
+}
+
+form[name='addQuestion'] .btn{
+	margin: 20px 0 0 15px;
+}
+
+.vote-count {
+	display:block;
+}
