@@ -16,6 +16,12 @@ module.exports = {
 		publicPath: './'
 	},
 
+	devServer: {
+		contentBase: "./build",
+		color: true,
+		inline: true
+	},
+
 	resolve: {
 		extensions: ['', '.js', 'jsx']
 	},
@@ -27,7 +33,10 @@ module.exports = {
 			'window.jQuery':'jquery',
 			'window.$': 'jquery'
 		}),
-		new HtmlWebpackPlugin()
+		new HtmlWebpackPlugin({
+			title: "蝙蝠侠",
+			template: "src/test.html"
+		})
 	],
 
 	module: {

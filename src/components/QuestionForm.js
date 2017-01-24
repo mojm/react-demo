@@ -28,7 +28,7 @@ var QuestionForm = React.createClass({
 					</div>
 					<textarea rows="5" className="form-control" placeholder='问题的描述' ref='newDescription'></textarea>
 					<button type='button' className="btn btn-default pull-right" onClick = {this.props.toggleForm}>取消</button>
-					<button type='submit' className="btn btn-success pull-right" >确认</button>
+					<button type='submit' className="btn btn-primary pull-right" >确认</button>
 				</form>
 		)
 	}

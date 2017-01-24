@@ -3,7 +3,7 @@ import ReactDOM from  'react-dom';
 
 var QuestionItem = React.createClass({
 	voteUp: function(){
-		var newCount = this.props.voteCount+1;
+		var newCount = this.props.voteCount + 1;
 		this.props.onVote(this.props.id, newCount);
 	},
 	voteDown: function(){
